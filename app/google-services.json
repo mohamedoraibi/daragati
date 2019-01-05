@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "556825233312",
+    "firebase_url": "https://daragati.firebaseio.com",
+    "project_id": "daragati",
+    "storage_bucket": "daragati.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556825233312:android:7f9b259662627b88",
+        "android_client_info": {
+          "package_name": "camp.codelab.daragati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556825233312-2movdpl6206mvv5n87j0ak13qkrgq0c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "camp.codelab.daragati",
+            "certificate_hash": "ecc2afcbcefcba0fd7fa4afb9c729b67d8f65f2d"
+          }
+        },
+        {
+          "client_id": "556825233312-nn6bl285s1hqocfhhuhp6eii57pb2n51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CV7sPiz1w5fJZe7lNPAJoqwNoAiOnoQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556825233312-nn6bl285s1hqocfhhuhp6eii57pb2n51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
