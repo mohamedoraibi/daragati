@@ -16,15 +16,22 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val firebaseReference = FirebaseDatabase.getInstance().getReference("student/studentName")
+        val firebaseReference = FirebaseDatabase.getInstance().getReference("student")
         firebaseReference.addValueEventListener(object : ValueEventListener {
             override fun onCancelled(error: DatabaseError) {
                 Toast.makeText(this@MainActivity, error.message, Toast.LENGTH_LONG).show()
             }
 
             override fun onDataChange(snapshot: DataSnapshot) {
-                val studentName = snapshot.getValue(String::class.java)
-                studentNameTextView.text = studentName
+                val student = snapshot.getValue(Student::class.java)
+                student?.let { student ->
+                    studentNameTextView.text = student.studentName
+                    firstSemesterTextView.text = student.firstSemester.toString()
+                    secondSemesterTextView.text=student.secondSemester.toString()
+                    midYearTextView.text=student.midYear.toString()
+                    finalExamTextView.text=student.finalExam.toString()
+                    finalResultTextView.text=student.finalResult.toString()
+                }
             }
 
 

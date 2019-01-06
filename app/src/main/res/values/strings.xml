@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Daragati</string>
     <string name="student_name">Student Name</string>
+    <string name="first_semester">First Semester</string>
+    <string name="second_semester">Second Semester</string>
+    <string name="mid_year">Mid Year</string>
+    <string name="final_exam">Final Exam</string>
+    <string name="final_result">Final Result</string>
 </resources>
